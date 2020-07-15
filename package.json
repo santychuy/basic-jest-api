@@ -1,0 +1,23 @@
+{
+  "name": "test-tdd",
+  "version": "1.0.0",
+  "description": "TDD",
+  "main": "index.js",
+  "author": "Santiago Carrasco <jsanticc@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
